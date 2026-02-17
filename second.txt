@@ -1,0 +1,5 @@
+Tuples are similar to lists, but unlike lists, they cannot be changed after their creation (i.e., they are immutable).
+Tuples can hold elements of different data types.
+The main characteristics of tuples are being ordered, heterogeneous and immutable.
+Slicing of Tuple
+Deleting a Tuple
