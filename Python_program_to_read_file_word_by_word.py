@@ -12,5 +12,6 @@ def read_word_by_word(file_path):
     except FileNotFoundError:
         print('File not found.')
        
+       
 # Usage
 read_word_by_word('original.txt')
