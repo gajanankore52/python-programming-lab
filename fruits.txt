@@ -1,3 +1,5 @@
-Fruits are the nutrient-dense, seed-bearing,
-Ranging from citrus and berries to stone
-Common types include apples.
+name=Jennie
+age=25
+name=Jennie
+city=New York
+name=Lisa
