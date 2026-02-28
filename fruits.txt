@@ -1,5 +1,1 @@
-name=Jennie
-age=25
-name=Jennie
-city=New York
-name=Lisa
+Hello, how are you? This is a simple text.
