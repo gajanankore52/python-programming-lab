@@ -22,3 +22,30 @@ my_tuple = (10, 20, 30, 20, 40, 50, 30, 30, 60, 10)
 # print(f"Repeated items: {result}")
 
 
+
+from collections import Counter
+
+# A tuple with various repeated items
+data = (1, 2, 2, 3, 3, 3, 4, 4, 4, 4)
+
+# Count occurrences of all items
+counts = Counter(data)
+
+# Filter for items with a count greater than 1
+repeats = {item: count for item, count in counts.items() if count > 1}
+
+print(f"Repeated items and their counts: {repeats}")
+
+
+from collections import Counter
+
+# A tuple with various repeated items
+data = (1, 2, 2, 3, 3, 3, 4, 4, 4, 4)
+
+# Count occurrences of all items
+counts = Counter(data)
+
+# Filter for items with a count greater than 1
+repeats = {item: count for item, count in counts.items() if count > 1}
+
+print(f"Repeated items and their counts: {repeats}")
