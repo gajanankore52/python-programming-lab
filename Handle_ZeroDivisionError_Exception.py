@@ -12,15 +12,19 @@ def safe_divide(numerator, denominator):
         # Attempt the division
         result = numerator / denominator
         print(f"Result: {result}")
+        
     except ZeroDivisionError:
         # This block executes only if a division by zero occurs
         print("Error: You cannot divide by zero. Please check your denominator.")
+        
     except TypeError:
         # Handles cases where inputes are not numbers
         print("Error: Please provide numeric values.")
+        
     else:
         # Excutes if no exceptions were raised
         print("Division successful!")
+        
     finally:
         # Excutes no matter what
         print("Execution complete.")
