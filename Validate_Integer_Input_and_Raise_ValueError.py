@@ -1,6 +1,6 @@
 # Write a Python program that prompts the user to input an integer and raises a ValueError exception if the input is not a valid integer.
 
-# Scripting Languagesexception ValueError:
+# exception ValueError:
 
 # Raised when an operation or function receives an argument that has the right type but an inappropriate value, and the situation is not described by a more precise exception such as IndexError.
 

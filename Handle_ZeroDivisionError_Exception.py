@@ -1,4 +1,4 @@
-# Write a Python program to handle a ZeroDivisionError exception when dividing a number by zero.Scripting Languages
+# Write a Python program to handle a ZeroDivisionError exception when dividing a number by zero.
 
 # exception ZeroDivisionError:
 
