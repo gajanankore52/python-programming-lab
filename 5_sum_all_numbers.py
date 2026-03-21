@@ -1,7 +1,7 @@
-#Accept 10 numbers form user and return addition of even numbers
+#Accept 10 numbers from user and return addition of all numbers
 
 def addition_of_even(arr):
-    return sum(x for x in arr if x % 2 == 0)
+    return sum(x for x in arr)
 
 def main():
     # 1. Ask ONCE for the total amount of numbers
@@ -16,7 +16,7 @@ def main():
     list1 = [int(input(f'Enter number {i+1}: ')) for i in range(count)]
         
     iResult = addition_of_even(list1)
-    print('Addition of even numbers is:', iResult)
+    print('Addition of all numbers is:', iResult)
 
 if __name__ == "__main__":
     main()
