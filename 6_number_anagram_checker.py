@@ -1,5 +1,5 @@
 #Accept 2 Number from user and check whether that number are anagram or not
-
+# === First Approch ===
 def is_anagram(num1 ,num2):
 
     # Convert numbers to strings, sort the characters, and compare
@@ -25,5 +25,30 @@ def main():
         print("Invalid input. Please enter numbers only.")
 
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
+#     main()
+
+# === Second Approch ===
+
+from collections import Counter
+
+def check_anagram(iNo1, iNo2):
+    # Standardizing the input to absolute strings
+    # This handlees negative numbers and leading zeros automatically
+    
+    return Counter(str(abs(iNo1))) == Counter(str(abs(iNo2)))
+
+def main():
+    try:
+        # Using a single input line with list comprehension for speed
+        nums = [int(input(f'Enter number {i+1}: ')) for i in range(2)]
+
+        # Unpacking the list into our function
+        if check_anagram(*nums):
+            print('The numbers are Anagram')
+        else:
+            print('The numbers are NOT Anagram')
+    except ValueError:
+        print('Invalid input! Please enter integers.')
+if __name__ =="__main__":
     main()
