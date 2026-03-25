@@ -29,7 +29,7 @@ def main():
 
     for sample in samples:
         result = calculate_string_sum(sample)
-        # print(f'Input: {sample} -> Output: {result}')
+        print(f'Input: {sample} -> Output: {result}')
 
 
 if __name__ == "__main__":
