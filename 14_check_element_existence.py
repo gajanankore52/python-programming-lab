@@ -5,7 +5,6 @@ def check_existance(target,data_list):
     if target in data_list:
         return True
     
-
     # 2. Performance optimization for massive lists
     # data_set= set(data_list)
     # return target in data_set
