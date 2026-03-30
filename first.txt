@@ -1,1 +1,6 @@
-Checking file status....
+Python is a high-level, interpreted, 
+and general-purpose programming language known 
+for its simple, readable syntax that emphasizes developer 
+productivity. Created by Guido van Rossum and released in 1991, 
+it supports object-oriented, procedural, and functional 
+programming, making it highly versatile for web development, data science, AI, and automation

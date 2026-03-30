@@ -1,5 +1,3 @@
-# Python File I/O: Combine each line from first file with the corresponding line in second file
-
 # Write a Python program to combine each line from first file with the corresponding line in second file.
 
 def combine_files(file1_path, file2_path):
