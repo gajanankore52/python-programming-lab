@@ -4,16 +4,18 @@ import math
 
 class Circle:
     def __init__(self,radius):
-        """Initialize the circle with a radius."""
+        if radius < 0:
+            raise ValueError("Radius cannot be negative")
+        
         self.radius = radius
         
-    
-    def calculate_area(self):
-        """Calculate and return the area of the circle."""
+    @property
+    def area(self):
+        
         return math.pi * (self.radius **2)
-    
-    def calculate_perimeter(self):
-        """Calculate and return the perimeter (circumference) of the circle."""
+    @property
+    def perimeter(self):
+        
         return 2 * math.pi * self.radius
         
 # Example Usage
@@ -21,6 +23,6 @@ class Circle:
 radius_input = 5
 my_circle = Circle(radius_input)
 print(f"Radius: {radius_input}")        
-print(f"Area: {my_circle.calculate_area():.2f}")
-print(f"Perimeter: {my_circle.calculate_perimeter():.2f}")
+print(f"Area: {my_circle.area:.2f}")
+print(f"Perimeter: {my_circle.perimeter:.2f}")
 
