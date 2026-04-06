@@ -1,5 +1,3 @@
-# Count the Number of Occurrences of a Key-Value Pair
-
 # Given a text file containing several key-value pairs in the format key = value, find how many times a specific key-value pair occurs in the file.
 
 

@@ -1,1 +1,5 @@
-Hello, how are you? This is a simple text.
+name = Jennie
+name = Gajanan
+name = Dipak
+name = Aditya
+name = Jennie
