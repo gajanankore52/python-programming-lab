@@ -19,10 +19,14 @@ def count_frequencies(input_list):
     
     return frequencies
 
+def count_frequencies_get(input_list):
+    frequencies = {}
+    for item in input_list:
+        # get(item, 0) returns the value if it exists, otherwise 0
+        frequencies[item] = frequencies.get(item, 0) + 1
+    return frequencies
 
 # Input
 data = ['apple', 'banana', 'apple', 'orange', 'banana', 'banana']
 
-# Output
-result = count_frequencies(data)
-print(result)
+print(count_frequencies(data))
